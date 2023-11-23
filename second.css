@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr {
+width: 700px;
+height: 0px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #D9DBE9;
+}
+
+header {
+    text-align: center; 
+    width: 100%;
+    border-radius: 18px;
+    background: var(--neutral-100, #FFF);
+    box-shadow: 0px 12px 24px 0px rgba(20, 20, 43, 0.04), 0px -2px 4px 0px rgba(20, 20, 43, 0.02), 0px 3px 14px 0px rgba(74, 58, 255, 0.03);
+    }
+h3 {
+color: var(--neutral-800, #170F49);
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+}
+.top {
+box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+/* width: 808px; */
+height: 808px; 
+flex-shrink: 0;
+border-radius: 34px;
+border: 1px solid #EFF0F6;
+background: #FAF8F8;
+box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+}
+.location {
+    width: 284px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 46px;
+border: 1px solid var(--neutral-300, #EFF0F6);
+background: var(--neutral-100, #FFF);
+box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+padding-inline: 15px;
+padding-block: 15px;
+}
+.details {
+    margin-inline: 30%;
+
+}
+h5 {
+    color: var(--neutral-600, #6F6C90);
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+padding-block: 20px;
+}
+.mit {
+display: inline-flex;
+padding: 10px 20px 11px 20px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+
+border: none;
+border-radius: 56px;
+background: linear-gradient(180deg, #9E96F2 0%, #EC31F0 100%);
+box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+}
+button {
+display: inline-flex;
+padding: 10px 20px 11px 20px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 66px;
+border: 3px solid #9E96F2;
+}
+.enter {
+    width: 284px;
+height: 121px;
+flex-shrink: 0;
+border-radius: 21px;
+border: 1px solid #EFF0F6;
+background: var(--neutral-100, #FFF);
+box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+}
+footer {
+    padding-block: 20px;
+    margin:20px;
+    justify-content: space-between;
+}
